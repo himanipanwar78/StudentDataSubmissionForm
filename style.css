@@ -99,18 +99,18 @@ form a i{
     }
     table, th, td{
         border: 1px lightsteelblue;
-        padding: 2px;
+        padding: 12px;
        
     }
    
      table td button{
-        padding: 3px 6px;
+       
         border: none;
         border-radius: 5px;
         background-color:rgb(3, 61, 3);
         color: white;
-        font-size: 8px;
-        margin: 2px;
+        font-size: 12px;
+        
     
         
     }
@@ -119,25 +119,15 @@ form a i{
 @media only screen and  (max-width:500px){
     table th{
         border: 2px saddlebrown;
-        font-size: 8px;
+        font-size: 10px;
     }
     table, th, td{
         border: 1px lightsteelblue;
         padding: 2px;
+        font-size: 8px;
        
     }
    
-     table td button{
-        padding: 2px 4px;
-        border: none;
-        border-radius: 5px;
-        background-color:rgb(3, 61, 3);
-        color: white;
-        font-size: 8px;
-        margin: 2px;
     
-        
-    }
-
 
 }
