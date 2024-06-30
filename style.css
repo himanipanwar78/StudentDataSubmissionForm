@@ -40,17 +40,7 @@ table th{
 table td{
     background-color: rgb(218, 212, 212);
 }
-table td button{
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    background-color:rgb(3, 61, 3);
-    color: white;
-    font-size: 18px;
-    margin: 2px;
 
-    
-}
 table td button:hover{
     background-color: rgb(4, 131, 4);
 }
@@ -104,7 +94,7 @@ form a i{
     }
    
      table td button{
-       
+       padding: 1px;
         border: none;
         border-radius: 5px;
         background-color:rgb(3, 61, 3);
@@ -128,6 +118,20 @@ form a i{
        
     }
    
+    table td button{
+       padding: 1px;
+        border: none;
+        
+        background-color:rgb(3, 61, 3);
+        color: white;
+        font-size: 1px;
+        
     
+        
+    }
+    table, th, td{
+       border: 1px solid black;
+       border-collapse: collapse;
+    }
 
 }
