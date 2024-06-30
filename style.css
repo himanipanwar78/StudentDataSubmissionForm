@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .details{
+   border:none;
+   border-radius: 5px;
+   padding: 5px 10px;
+   font-size: 18px;
+   color: white;
+   background-color: rgb(3, 61, 3);
+
+}
+.details:hover{
+    background-color: rgb(8, 129, 8);
+}
+
+table{
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+table th{
+    border: 2px saddlebrown;
+    font-size: 20px;
+}
+
+table, th, td{
+    border: 1px lightsteelblue;
+    padding: 10px;
+   
+}
+table th{
+    background-color: burlywood;
+}
+table td{
+    background-color: rgb(218, 212, 212);
+}
+table td button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(3, 61, 3);
+    color: white;
+    font-size: 18px;
+    margin: 2px;
+
+    
+}
+table td button:hover{
+    background-color: rgb(4, 131, 4);
+}
+
+
+
+form{
+    justify-content: center;
+   border-radius: 8px;
+    
+   
+}
+
+.modal-header h1{
+    
+    font-size:30px;
+    color:rgb(3, 61, 3);
+}
+form   .btn{
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(3, 61, 3); 
+  color: white;
+  font-size:18px;
+  margin-left:170px;  
+}
+
+form  .btn:hover{
+background-color: rgb(15, 119, 15);
+color: white;
+}
+form label{
+    font-size:15px;
+    
+}
+form a i{
+   color: black;
+    font-size: 30px;
+
+}
+
+
